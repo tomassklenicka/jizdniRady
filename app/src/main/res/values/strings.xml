@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">JizdniRady</string>
+    <string name="search_hint">Najdi stanici</string>
+    <string name="title">Jízdní Řády</string>
+    <string name="map">Mapa</string>
+    <string name="favorites">Oblíbené</string>
+    <string name="search">Hledat</string>
+    <string name="more">Více</string>
+    <string name="todo">TODO</string>
+    <string name="vyhledat">Vyhledat</string>
+</resources>

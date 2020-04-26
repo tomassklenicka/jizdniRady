@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <SearchView
+        android:id="@+id/search1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:background="#c555"
+        android:iconifiedByDefault="false"
+        android:padding="3dp"
+        android:queryHint="Odkud ..." />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/swap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ic_swap_vert"
+            android:background="@null"
+            android:contentDescription="@string/todo" />
+
+        <SearchView
+            android:id="@+id/search_via"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="65dp"
+            android:layout_marginLeft="65dp"
+            android:background="#c555"
+            android:iconifiedByDefault="false"
+            android:padding="4dp"
+            android:queryHint="Přes ..."
+            android:visibility="invisible" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/add_via"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="65dp"
+            android:layout_marginLeft="65dp"
+            android:clickable="true"
+            android:src="@drawable/ic_add_box"
+            android:background="@null"
+            android:focusable="true"
+            android:contentDescription="@string/todo" />
+    </RelativeLayout>
+
+    <SearchView
+        android:id="@+id/search2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:padding="3dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:background="#c555"
+        android:queryHint="Kam ..." />
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="end"
+        android:text="@string/vyhledat" />
+</LinearLayout>

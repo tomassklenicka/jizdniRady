@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/naw_prihlaseni"
+            android:icon="@drawable/ic_add_box_black_24dp"
+            android:title="Přihlásit" />
+        <item
+            android:id="@+id/action_map"
+            android:enabled="true"
+            android:icon="@drawable/ic_map"
+            android:title="@string/map" />
+        <item
+            android:id="@+id/action_favorites"
+            android:enabled="true"
+            android:icon="@drawable/ic_favourite"
+            android:title="@string/favorites" />
+
+        <item
+            android:id="@+id/naw_profil"
+            android:icon="@drawable/ic_prihlaseni"
+            android:title="Profil" />
+
+        <item
+            android:id="@+id/naw_odhlášení"
+            android:icon="@drawable/ic_indeterminate_check_box_black_24dp"
+            android:title="Odhlásit" />
+
+
+    </group>
+
+</menu>
